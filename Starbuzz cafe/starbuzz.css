@@ -1,0 +1,122 @@
+body {
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-color: #b5a789;
+}
+
+header.top {
+    background-color: #675c47;
+    height: 108px;
+    margin: 10px 10px 0px 10px;
+}
+img#headerSlogan {
+    float: right
+}
+
+#drinks {
+    background-color: #efe5d0;
+    background-image: url(images/background.gif);
+    background-position: top left;
+
+    padding: 15px;
+    font-size: 105%;
+
+    display: table-cell;
+    vertical-align: top;
+    width: 20%;
+}
+
+section#main, section#blog {
+    background-color: #efe5d0;
+    background-image: url(images/background.gif);
+    background-position: top left;
+    font-size: 105%;
+    padding: 15px;
+   
+    vertical-align: top;
+    display: table-cell;
+}
+
+aside {
+    background-color: #efe5d0;
+    background-image: url(images/background.gif);
+    background-position: bottom right;
+    padding: 15px;
+    font-size: 105%;
+
+    display: table-cell;
+    vertical-align: top;
+}
+
+footer {
+    background-color: #675c47;
+    font-size: 90%;
+    text-align: center;
+    color: #efe5d0;
+    margin: 0px 10px 10px 10px;
+    padding: 15px;
+    clear: right;
+}
+
+h1 {
+    font-size: 120%;
+    color: #954b4b;
+}
+
+.slogan {
+    color: #954b4b;
+}
+
+.beanheading {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+a:link {
+    color: #b76666;
+    text-decoration: none;
+    border-bottom: thin dotted #b76666;
+}
+
+a:visited {
+    color: #675c47;
+    text-decoration: none;
+    border-bottom: thin dotted #675c47;
+}
+
+#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+#tableRow {
+    display: table-row;
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 10px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px ;
+}
+
+nav ul li a:link,  nav ul li a:visited {
+    color: #955b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul li.selected {
+    background-color: #c8b99c;
+}
+
+
